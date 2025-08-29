@@ -1,0 +1,32 @@
+# Generated Cucumber step library from Java source files
+# This file is compatible with the HLR-to-Test CLI tool
+
+given_steps:
+  - "Active Over Airwork has been commenced"
+  - "Active Over Airwork has been commenced for {string}"
+  - "Active Early Airwork has been commenced"
+  - "Active Early Airwork has been commenced for {string}"
+  - "Airwork has been Planned with:"
+  - "Airwork has been Planned over {string}"
+
+when_steps:
+  - "HMI-AirworkInitiation is requested"
+  - "HMI-AirworkTermination is requested"
+  - "HMI-AirworkTermination is requested \\\\(at time {string})"
+  - "HMI-AirworkIntentInitiation is requested with:"
+  - "HMI-AirworkIntentInitiation is requested over {string}"
+  - "HMI-AirworkModification is requested"
+  - "HMI-AirworkModification is requested with:"
+
+then_steps:
+  []
+
+parameter_types:
+  AirworkIntentInitiationBean: "Custom parameter type: AirworkIntentInitiationBean"
+  AirworkIntentModificationBean: "Custom parameter type: AirworkIntentModificationBean"
+
+metadata:
+  extraction_date: "2025-08-29T10:31:52.362Z"
+  source_files: 
+    - "HmiAirworkSteps.java"
+  total_steps: 13
